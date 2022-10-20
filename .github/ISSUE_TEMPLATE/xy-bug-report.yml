@@ -57,8 +57,9 @@ body:
     validations:
       required: true
   - type: input
-    label: Reproduction Repo
-    description: Include a URL to a repository that reproduces this issue. This is optional, but increases the likelihood that we can help you!
+    attributes:
+      label: Reproduction Repo
+      description: Include a URL to a repository that reproduces this issue. This is optional, but increases the likelihood that we can help you!
     validations:
       required: false
   - type: markdown
